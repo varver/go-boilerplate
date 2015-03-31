@@ -3,7 +3,7 @@ package logger
 import (
 	"fmt"
 	"github.com/blackjack/syslog"
-	"go-boilerplate/conf"
+	"github.com/varver/go-boilerplate/conf"
 	"log"
 	"os"
 	"path"

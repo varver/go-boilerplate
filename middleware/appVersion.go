@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"go-boilerplate/conf"
+	"github.com/varver/go-boilerplate/conf"
 	"net/http"
 
 	"github.com/go-martini/martini"

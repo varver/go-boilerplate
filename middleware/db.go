@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"go-boilerplate/conf"
-	"go-boilerplate/models"
+	"github.com/varver/go-boilerplate/conf"
+	"github.com/varver/go-boilerplate/models"
 
 	"github.com/go-martini/martini"
 	"github.com/go-xorm/xorm"

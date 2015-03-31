@@ -2,7 +2,7 @@ package conf
 
 import (
 	"github.com/BurntSushi/toml"
-	"go-boilerplate/utils/logger"
+	"github.com/varver/go-boilerplate/utils/logger"
 	"log"
 	"os"
 )
