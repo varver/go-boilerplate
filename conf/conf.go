@@ -2,7 +2,6 @@ package conf
 
 import (
 	"github.com/BurntSushi/toml"
-	"github.com/varver/go-boilerplate/utils/logger"
 	"log"
 	"os"
 )
@@ -34,7 +33,7 @@ const (
 )
 
 func init() {
-	logger.Info("configurations init called off")
+	log.Println("configurations init called off")
 	dir, _ := os.Getwd()
 
 	// order in which to search for config file
@@ -47,13 +46,12 @@ func init() {
 
 	for _, f := range files {
 		if _, err := toml.DecodeFile(f, &Setting); err == nil {
-			logger.Info("Loaded configuration %s", f)
+			log.Printf("Loaded configuration %s", f)
 			break
 		}
 	}
 
 	if len(Setting.ServerPort) < 3 {
-		logger.Emerg("Problem in loading configuration file.")
 		log.Panicln("Configuration files are not loaded properly, problem in finding port to run application.")
 	}
 
