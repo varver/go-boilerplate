@@ -1,0 +1,74 @@
+{
+	"ImportPath": "go-boilerplate",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/BurntSushi/toml",
+			"Comment": "v0.1.0-18-g443a628",
+			"Rev": "443a628bc233f634a75bcbdd71fe5350789f1afa"
+		},
+		{
+			"ImportPath": "github.com/boj/redistore",
+			"Comment": "v1",
+			"Rev": "9d1554b400d726c7aa54b6e4a836f273b72b97f7"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-10-g33e0aa1",
+			"Rev": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Rev": "785e0ca9319196b94fd61abd4c9eab5c11777377"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Rev": "785e0ca9319196b94fd61abd4c9eab5c11777377"
+		},
+		{
+			"ImportPath": "github.com/go-martini/martini",
+			"Comment": "v1.0-115-g8412a65",
+			"Rev": "8412a652ddae77553a9442708a527d0e616939a3"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/core",
+			"Rev": "3e0fa232ab5c90996406c0cd7ae86ad0e5ecf85f"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/xorm",
+			"Comment": "v0.4.1-4-g58d3384",
+			"Rev": "58d33844ce0181cfe409406343bda8ec6f802cea"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Rev": "5f171f42328bdd573211bb82bdee8f259c4c61ae"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Rev": "13c86220d944600e7a6e3de6c87418896ccfbe77"
+		},
+		{
+			"ImportPath": "github.com/martini-contrib/sessions",
+			"Rev": "fa13114fbcf036dff8185d728651d85fcef772db"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/godrv",
+			"Comment": "v1.5.3-21-g261574e",
+			"Rev": "261574e2f4a9d9d2d81a8f996105c8c835bfe19b"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/mysql",
+			"Comment": "v1.5.3-21-g261574e",
+			"Rev": "261574e2f4a9d9d2d81a8f996105c8c835bfe19b"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/native",
+			"Comment": "v1.5.3-21-g261574e",
+			"Rev": "261574e2f4a9d9d2d81a8f996105c8c835bfe19b"
+		}
+	]
+}
