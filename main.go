@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/sessions"
+	"github.com/varver/go-boilerplate/apps/test"
 	"github.com/varver/go-boilerplate/conf"
-	"github.com/varver/go-boilerplate/controllers"
 	"github.com/varver/go-boilerplate/middleware"
-	"github.com/varver/go-boilerplate/utils/logger"
+	//	"github.com/varver/go-boilerplate/utils/logger"
 	"math/rand"
 	"runtime"
 	"time"
@@ -30,7 +30,7 @@ func StartServer() {
 	static := martini.Static("static", martini.StaticOptions{Fallback: "templates/404.html"})
 
 	// enter urls below //
-	m.Get("/test", controllers.DisplayTestPage)
+	m.Get("/test", test.DisplayTestPage)
 
 	// final call to initiate all the stuff
 	m.RunOnAddr(":" + conf.Setting.ServerPort)

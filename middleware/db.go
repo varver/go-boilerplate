@@ -1,8 +1,8 @@
 package middleware
 
 import (
+	"github.com/varver/go-boilerplate/apps/test"
 	"github.com/varver/go-boilerplate/conf"
-	"github.com/varver/go-boilerplate/models"
 
 	"github.com/go-martini/martini"
 	"github.com/go-xorm/xorm"
@@ -10,8 +10,9 @@ import (
 	_ "github.com/ziutek/mymysql/godrv"
 )
 
-// DB is used to make connection to datbase . You can pass database type and its access information like
-// path to database or database name database user and database connection password .
+// DB is used to make connection to database . You can pass database type and its access information like
+// path to database or database name database user and database connection password.
+// You can use , mysql , postgres, sqlite , orcale , ms-sql.
 func DB() martini.Handler {
 
 	/*
@@ -31,7 +32,7 @@ func DB() martini.Handler {
 
 	//engine.ShowSQL = true
 	engine.Sync(
-		&models.TestTable{},
+		&test.TestTable{},
 	)
 
 	return func(c martini.Context) {
