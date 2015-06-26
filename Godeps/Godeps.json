@@ -1,0 +1,78 @@
+{
+	"ImportPath": "github.com/varver/go-boilerplate",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/BurntSushi/toml",
+			"Comment": "v0.1.0-18-g443a628",
+			"Rev": "443a628bc233f634a75bcbdd71fe5350789f1afa"
+		},
+		{
+			"ImportPath": "github.com/blackjack/syslog",
+			"Rev": "4ea3f32c1eb1115ad9e010eeff314fffc5fc8638"
+		},
+		{
+			"ImportPath": "github.com/boj/redistore",
+			"Comment": "v1-2-g0cd5558",
+			"Rev": "0cd55584b172cefd31c4cb84e2904585d898c7b2"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-10-g33e0aa1",
+			"Rev": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Rev": "535138d7bcd717d6531c701ef5933d98b1866257"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Rev": "535138d7bcd717d6531c701ef5933d98b1866257"
+		},
+		{
+			"ImportPath": "github.com/go-martini/martini",
+			"Comment": "v1.0-117-g2047b73",
+			"Rev": "2047b7394d319aa3feb49db1452202336fb66fb6"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/core",
+			"Rev": "be6e7ac47dc57bd0ada25322fa526944f66ccaa6"
+		},
+		{
+			"ImportPath": "github.com/go-xorm/xorm",
+			"Comment": "v0.4.2-59-ge4b568f",
+			"Rev": "e4b568f3b35d18789067531c628fcae9ef860f0e"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Rev": "8e98dd730fc43f1383f19615db6f2e702c9738e8"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Rev": "c8fb5963af5ff7fda6a44132ba4c0d8376e20257"
+		},
+		{
+			"ImportPath": "github.com/martini-contrib/sessions",
+			"Rev": "fa13114fbcf036dff8185d728651d85fcef772db"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/godrv",
+			"Comment": "v1.5.4",
+			"Rev": "e08c2f35356576b3c3690c252fe5dca728ae9292"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/mysql",
+			"Comment": "v1.5.4",
+			"Rev": "e08c2f35356576b3c3690c252fe5dca728ae9292"
+		},
+		{
+			"ImportPath": "github.com/ziutek/mymysql/native",
+			"Comment": "v1.5.4",
+			"Rev": "e08c2f35356576b3c3690c252fe5dca728ae9292"
+		}
+	]
+}
